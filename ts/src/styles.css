@@ -1,10 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .cabecalho {
   background-color: #FDF1EB;
-  width: 85%;
+  width: 1146px;
   height: 68px;
-  left: 220px;
+  margin: 0 0 0 220px;
+}
+
+.issn {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+}
+
+.anais13 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25.78px;
+  text-align: left;
 }
 
 .idiomas {
@@ -12,6 +29,10 @@
   height: 34px;
   top: 17px;
   left: 789px;
+  gap: 0px;
+  border-radius: 3px;
+  border: 1px 1px 1px 1px;
+  opacity: 0px;
 }
 
 .pessoa {
@@ -21,9 +42,8 @@
 
 .content {
   width: 1059px;
-  height: 1753px;
-  top: 88px;
-  left: 263px;
+  height: 1382px;
+  margin: 88px 0 0 263px;
 }
 
 header {
@@ -44,6 +64,7 @@ header {
 
 body {
   background-color: #FFFFFF;
+  margin: 0%;
 }
 
 .flex-container {
@@ -54,13 +75,25 @@ body {
   width: 220px;
   height: 2072px;
   float: left;
+  position: fixed;
   background-color: #FFFFFF;
+  top: 0;
+  z-index: 1;
 }
 
 .slaca {
   width: 220px;
   height: 68px;
-  background-color: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+  background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+
+.slaca2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35.16px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .icon {
@@ -69,6 +102,10 @@ body {
   border-radius: 50px 50px 50px 50px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
+}
+
+.botoes {
+  float: right;
 }
 
 .download {
@@ -81,6 +118,7 @@ body {
   gap: 5px;
   border-radius: 4px 4px 4px 4px;
   opacity: 0px;
+  border: none;
 }
 
 .star {
@@ -92,10 +130,72 @@ body {
   gap: 5px;
   border-radius: 4px 4px 4px 4px;
   opacity: 0px;
+  border: none;
+}
+
+.doi {
+  background: #ED7839;
+  width: 43px;
+  height: 31px;
+  left: 1015px;
+  padding: 6px 12px 6px 12px;
+  gap: 5px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  border: none;
+}
+
+.doiimg {
+  width: 19px;
+  height: 19px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.video {
+  background-image: url(assets/video.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 784px;
+  height: 439px;
+  top: 73px;
+  left: 2px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.h2video {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.detalhes {
+  float: right;
+  width: 242px;
+  height: 439px;
+  top: 73px;
+  left: 816px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #ECECEC;
+}
+
+.headerdetail {
+  width: 242px;
+  height: 45px;
+  border-radius: 3px 3px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 }
 
 h1 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 900;
   line-height: 25px;
@@ -105,7 +205,7 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 900;
   line-height: 25px;
@@ -120,6 +220,10 @@ h3 {
   font-weight: 500;
   line-height: 25px;
   text-align: left;
+}
+
+.resumo {
+  border: 1px solid #ECECEC;
 }
 
 .galoa {
