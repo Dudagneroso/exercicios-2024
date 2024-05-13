@@ -26,9 +26,7 @@
 .content{
     width: 1059px;
     height: 1753px;
-    top: 88px;
-    left: 263px;
-
+    margin: 88px 0 0 263px;
 }
 
 header{
@@ -52,7 +50,7 @@ body {
 }
 
 .flex-container {
-    display: flex;
+    //display: flex;
     flex-direction:column
 }
 
@@ -60,8 +58,10 @@ body {
     width: 220px;
     height: 2072px;	 
     float: left;
-    //position: fixed;
+    position: fixed;
     background-color: #FFFFFF;
+    top: 0;
+    z-index: 1;
    }
 
 .slaca{
@@ -107,7 +107,15 @@ body {
 }
 
 .doi{
-    
+    background:#ED7839;
+    width: 43px;
+    height: 31px;
+    left: 1015px;
+    padding: 6px 12px 6px 12px;
+    gap: 5px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    border: none;
 }
 
 h1{
