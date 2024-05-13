@@ -52,7 +52,7 @@ body {
 }
 
 .flex-container {
-    //display: flex;
+    display: flex;
     flex-direction:column
 }
 
@@ -89,6 +89,7 @@ body {
     gap: 5px;
     border-radius: 4px 4px 4px 4px;
     opacity: 0px;
+    border: none;
     
 }
 
@@ -101,7 +102,12 @@ body {
     gap: 5px;
     border-radius: 4px 4px 4px 4px;
     opacity: 0px;
+    border: none;
 
+}
+
+.doi{
+    
 }
 
 h1{
