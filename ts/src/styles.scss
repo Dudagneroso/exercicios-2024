@@ -289,6 +289,32 @@ h4{
 .resumo{
     border: 1px solid #ECECEC;
 }
+
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discocoes{
+    align-items: center;
+    justify-content: center;
+}
+
+.topico{
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    width: 133px;
+    height: 32px;
+    border-radius: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: none;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+
+}
 .galoa{
     //width: 1146px;
     height: 181px;
