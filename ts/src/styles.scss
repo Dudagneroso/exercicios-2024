@@ -157,6 +157,20 @@ body {
     opacity: 0px;
 }
 
+.video{
+    background-image:url(assets/video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 784px;
+    height: 439px;
+    top: 73px;
+    left: 2px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
 h1{
     font-family: Roboto;
     font-size: 20px;
