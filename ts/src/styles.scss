@@ -88,7 +88,17 @@ body {
 .slaca{
     width: 220px;
     height: 68px;
-    background-color: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+
+.slaca2{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.16px;
+    text-align: center;
+    color: #FFFFFF;
+    
 }
 
 .icon{
