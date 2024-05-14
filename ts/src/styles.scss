@@ -178,14 +178,15 @@ a{
     border-radius: 50px 50px 50px 50px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    margin-top: 200px;
+    margin-right: 20px;
     margin-left: 33px;
     border: 1px solid #ED7839;
-
+    float: left;
 }
 
 .texto{
-   margin-left: 134px;
+    margin-top: 200px;
+    float: right;
 }
 .botoes{
     float: right;
