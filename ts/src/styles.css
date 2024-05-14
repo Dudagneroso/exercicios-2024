@@ -16,6 +16,7 @@
   gap: 0px;
   opacity: 0px;
   display: inline-block;
+  margin-left: 30px;
 }
 
 .issn {
@@ -24,6 +25,16 @@
   font-weight: 400;
   line-height: 16.41px;
   text-align: left;
+  line-height: 0%;
+}
+
+.anais1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  line-height: 0%;
 }
 
 .anais13 {
@@ -32,26 +43,40 @@
   font-weight: 400;
   line-height: 25.78px;
   text-align: left;
+  line-height: 0%;
 }
 
 .idiomas {
   width: 97px;
   height: 34px;
-  top: 17px;
+  margin-top: 17px;
   left: 789px;
   gap: 0px;
   border-radius: 3px;
   border: 1px 1px 1px 1px;
-  opacity: 0px;
+  background-color: #FDF1EB;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  float: right;
+}
+
+.email {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.5px;
+  text-align: right;
 }
 
 .pessoa {
   width: 30.3px;
   height: 30.63px;
-  top: 18.68px;
-  left: 1077.85px;
+  margin-top: 18.68px;
+  margin-left: 5px;
+  margin-right: 60px;
   border: 1px 1px 1px 1px;
   border-radius: 15px;
+  float: right;
 }
 
 .login {
@@ -68,17 +93,17 @@
 .content {
   width: 1059px;
   height: 1382px;
-  margin: 88px 0 0 263px;
+  margin: 20px 0 0 263px;
 }
 
 header {
   background-color: #FDF1EB;
   width: 1058px;
   height: 45px;
-  top: 542px;
   left: 1px;
   border-radius: 3px 3px 0px 0px;
   border: 1px 0px 0px 0px;
+  display: inline-block;
 }
 
 .p {
@@ -106,6 +131,27 @@ body {
   background-color: #FFFFFF;
   top: 0;
   z-index: 1;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2509803922);
+}
+
+a {
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: left;
+  color: #725C5C;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.trabalhos {
+  width: 220px;
+  height: 33px;
+  gap: 0px;
+  opacity: 0px;
+  background: #FDF1EB;
+  line-height: 0%;
 }
 
 .slaca {
@@ -130,11 +176,18 @@ body {
   border-radius: 50px 50px 50px 50px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
+  margin-top: 200px;
+  margin-left: 33px;
+  border: 1px solid #ED7839;
+}
+
+.texto {
+  margin-left: 134px;
 }
 
 .botoes {
   float: right;
-  height: 54px;
+  height: 31px;
 }
 
 .citacao {
@@ -145,6 +198,7 @@ body {
   letter-spacing: 0.05em;
   text-align: right;
   color: #ED7839;
+  line-height: 5px;
 }
 
 .download {
@@ -211,18 +265,50 @@ body {
   line-height: 25px;
   letter-spacing: 0.05em;
   text-align: left;
+  margin-left: 34px;
+}
+
+.nome {
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.fca {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #FFFFFF;
 }
 
 .detalhes {
   float: right;
   width: 242px;
   height: 439px;
-  top: 73px;
   left: 816px;
-  gap: 0px;
+  margin-top: 9px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
   border: 1px solid #ECECEC;
+}
+
+.texto-detalhe {
+  font-family: Quicksand;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 212px;
+  height: 364px;
+  margin-left: 16px;
 }
 
 .headerdetail {
@@ -241,6 +327,8 @@ h1 {
   letter-spacing: 0.05em;
   text-align: left;
   color: #ED7839;
+  width: 786px;
+  height: 54px;
 }
 
 h2 {
@@ -260,6 +348,7 @@ h3 {
   line-height: 25px;
   text-align: left;
   color: #4E4E4E;
+  margin-left: 16px;
 }
 
 h4 {
@@ -278,10 +367,27 @@ h4 {
   line-height: 15px;
   text-align: left;
   color: #5C5C5C;
+  margin-left: 39.17px;
 }
 
 .resumo {
+  width: 1058px;
+  height: 560px;
+  margin-top: 30px;
+  left: 1px;
+  border-radius: 3px;
   border: 1px solid #ECECEC;
+}
+
+.texto-resumo {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.75px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-top: 6px;
+  margin-left: 16px;
 }
 
 .imagens {
@@ -290,9 +396,13 @@ h4 {
   justify-content: center;
 }
 
-.discocoes {
+.discussoes {
+  width: 1058px;
+  height: 621px;
+  margin-top: 30px;
   align-items: center;
   justify-content: center;
+  border: 1px solid #ECECEC;
 }
 
 .topico {
@@ -308,12 +418,75 @@ h4 {
   font-weight: 700;
   line-height: 16px;
   text-align: center;
+  position: absolute;
+  top: 1412px;
+  left: 733px;
+}
+
+.assunto {
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #ED7839;
+  line-height: 0%;
+  margin-left: 39.17px;
+  margin-top: 20px;
+}
+
+.texto2 {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.25px;
+  text-align: center;
+  width: 626px;
+  height: 39px;
+  margin-left: 216.5px;
+}
+
+hr {
+  border: 1px solid #E7E7E7;
+}
+
+.pergunta {
+  width: 1028px;
+  height: 148px;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-radius: 4px;
+  border: 1px solid #E7E7E7;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1215686275);
+}
+
+.texto-pergunta {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.5px;
+  text-align: left;
+  margin-left: 39.17px;
+}
+
+.likes {
+  display: flex;
+  width: 165px;
+  height: 19px;
+  top: 1536px;
+  margin-left: 39.17px;
+  justify-content: space-evenly;
+}
+
+.interacao {
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 18.62px;
+  text-align: left;
 }
 
 .galoa {
+  width: 1146px;
   height: 181px;
-  left: 220px;
-  padding: 0px 46px 0px 14px;
-  gap: 0px;
-  opacity: 0px;
 }/*# sourceMappingURL=styles.css.map */

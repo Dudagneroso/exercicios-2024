@@ -104,6 +104,7 @@ header{
     left: 1px;
     border-radius: 3px 3px 0px 0px;
     border: 1px 0px 0px 0px; 
+    display: inline-block
 }
 
 .p{
@@ -180,7 +181,7 @@ a{
     margin-top: 200px;
     margin-left: 33px;
     border: 1px solid #ED7839;
-    
+
 }
 
 .texto{
@@ -188,7 +189,7 @@ a{
 }
 .botoes{
     float: right;
-    height: 54px;
+    height: 31px;
 
 }
 
@@ -200,6 +201,7 @@ a{
     letter-spacing: 0.05em;
     text-align: right;
     color: #ED7839;
+    line-height: 5px;
 }
 
 .download{
