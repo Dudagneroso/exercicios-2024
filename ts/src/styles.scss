@@ -451,6 +451,38 @@ h4{
 
 }
 
+textarea{
+    width: 1025.52px;
+    height: 113px;
+    top: 132px;
+    left: -0.47px;
+    gap: 0px;
+    border-radius: 3px;
+    opacity: 0px;
+    border: 1px solid #CCCCCC
+}
+
+.subject{
+    width: 1025.52px;
+    height: 39px;
+    top: 60px;
+    left: -0.47px;
+    gap: 0px;
+    border-radius: 3px ;
+    opacity: 0px;
+    border: 1px solid #CCCCCC
+}
+
+.enviar{
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    width: 205.1px;
+    height: 31px;
+    border-radius:4px;
+    border: none;
+    color: #FFFFFF;
+    float: right;
+}
+
 hr{
     border: 1px solid #E7E7E7
 }
