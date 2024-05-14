@@ -112,6 +112,17 @@ body {
     z-index: 1;
    }
 
+a{
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    color: #725C5C;
+    text-decoration: none;
+
+}
+
 .slaca{
     width: 220px;
     height: 68px;
@@ -135,12 +146,13 @@ body {
     border-radius: 50px 50px 50px 50px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-
+    
 }
 
 .botoes{
     float: right;
     height: 54px;
+
 }
 
 .citacao{
@@ -264,7 +276,7 @@ h2{
 }
 
 h3{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 25px;
@@ -286,7 +298,7 @@ h4{
     font-weight: 500;
     line-height: 15px;
     text-align: left;
-    color: #ED7839;
+    color: #5C5C5C;
 }
 
 .resumo{
